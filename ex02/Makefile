@@ -15,12 +15,18 @@ DEPDIR			= deps
 #                              SOURCE FILES                                    #
 ################################################################################
 
-SRCS = main.cpp				\
-	   Bureaucrat.cpp		\
-	   Form.cpp
+SRCS =	main_pardon.cpp						\
+		Bureaucrat.cpp						\
+		AForm.cpp							\
+		ShrubberyCreationForm.cpp			\
+		RobotomyRequestForm.cpp				\
+		PresidentialPardonForm.cpp
 
-HEADERS = Bureaucrat.hpp	\
-		  Form.hpp
+HEADERS =	Bureaucrat.hpp					\
+			AForm.hpp						\
+			ShrubberyCreationForm.hpp		\
+			RobotomyRequestForm.hpp			\
+			PresidentialPardonForm.hpp
 
 
 ################################################################################

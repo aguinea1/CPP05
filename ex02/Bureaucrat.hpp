@@ -4,7 +4,7 @@
 # include <new>
 # include <string>
 
-class Form;
+class AForm;
 
 class Bureaucrat
 {
@@ -29,6 +29,7 @@ class Bureaucrat
 		int			getGrade() const;
 		void		IncrementGrade(int IG);//--IG
 		void		DecrementGrade(int DG);//++DG
-		void		signForm(Form& form);
+		void		signForm(AForm& form);
+		void		executeForm(const AForm& form) const;
 };
 #endif
